@@ -1,4 +1,4 @@
-/******************************************
+ /******************************************
 * Visit Dynamic Drive DHTML code library (http://www.dynamicdrive.com/) for full source code
 * For Blogger By http://www.helperblogger.com/
 ******************************************/
@@ -7,7 +7,7 @@ window.open("autumn_effect.htm","","width=350,height=500")
 }
 
   //Configure below to change URL path to the snow image
-  var snowsrc="http://3.bp.blogspot.com/-0f8b8dxE5ks/VJHk1qXhZCI/AAAAAAAADyE/NLZ01Kx9kTY/s1600/snow2.gif"
+  var snowsrc="https://raw.githubusercontent.com/IDTT/Js/master/klip.gif"
   // Configure below to change number of snow to render
   var no = 10;
   // Configure whether snow should disappear after x seconds (0=never):
@@ -42,7 +42,7 @@ window.open("autumn_effect.htm","","width=350,height=500")
   am = new Array();
   stx = new Array();
   sty = new Array();
-  snowsrc=(snowsrc.indexOf("helperblogger.com")!=-1)? "http://3.bp.blogspot.com/-0f8b8dxE5ks/VJHk1qXhZCI/AAAAAAAADyE/NLZ01Kx9kTY/s1600/snow2.gif" : snowsrc
+  snowsrc=(snowsrc.indexOf("helperblogger.com")!=-1)? "https://raw.githubusercontent.com/IDTT/Js/master/klip.gif" : snowsrc
   for (i = 0; i < no; ++ i) {  
     dx[i] = 0;                        // set coordinate variables
     xp[i] = Math.random()*(doc_width-50);  // set position variables
@@ -52,7 +52,7 @@ window.open("autumn_effect.htm","","width=350,height=500")
     sty[i] = 0.7 + Math.random();     // set step variables
 		if (ie4up||ns6up) {
       if (i == 0) {
-        document.write("<div id=\"dot"+ i +"\" style=\"POSITION: absolute; Z-INDEX: "+ i +"; VISIBILITY: visible; TOP: 15px; LEFT: 15px;\"><a href=\"http://www.helperblogger.com\"><img src='"+snowsrc+"' border=\"0\"><\/a><\/div>");
+        document.write("<div id=\"dot"+ i +"\" style=\"POSITION: absolute; Z-INDEX: "+ i +"; VISIBILITY: visible; TOP: 15px; LEFT: 15px;\"><img src='"+snowsrc+"' border=\"0\"><\/a><\/div>");
       } else {
         document.write("<div id=\"dot"+ i +"\" style=\"POSITION: absolute; Z-INDEX: "+ i +"; VISIBILITY: visible; TOP: 15px; LEFT: 15px;\"><img src='"+snowsrc+"' border=\"0\"><\/div>");
       }
