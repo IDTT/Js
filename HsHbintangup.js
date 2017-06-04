@@ -17,8 +17,8 @@ window.open("autumn_effect.htm","","width=350,height=500")
 
 ///////////Stop Config//////////////////////////////////
 
-  var ie4up = (document.all) ? 1 : 0;
-  var ns6up = (document.getElementById&&!document.all) ? 1 : 0;
+  var ie4down = (document.all) ? 1 : 0;
+  var ns6down = (document.getElementById&&!document.all) ? 1 : 0;
 
 	function iecompattest(){
 	return (document.compatMode && document.compatMode!="BackCompat")? document.documentElement : document.body
@@ -28,10 +28,10 @@ window.open("autumn_effect.htm","","width=350,height=500")
   var am, stx, sty;  // amplitude and step variables
   var i, doc_width = 800, doc_height = 600; 
   
-  if (ns6up) {
+  if (ns6down) {
     doc_width = self.innerWidth;
     doc_height = self.innerHeight;
-  } else if (ie4up) {
+  } else if (ie4down) {
     doc_width = iecompattest().clientWidth;
     doc_height = iecompattest().clientHeight;
   }
@@ -50,7 +50,7 @@ window.open("autumn_effect.htm","","width=350,height=500")
     am[i] = Math.random()*20;         // set amplitude variables
     stx[i] = 0.02 + Math.random()/10; // set step variables
     sty[i] = 0.7 + Math.random();     // set step variables
-		if (ie4up||ns6up) {
+		if (ie4down||ns6down) {
       if (i == 0) {
         document.write("<div id=\"dot"+ i +"\" style=\"POSITION: absolute; Z-INDEX: "+ i +"; VISIBILITY: visible; TOP: 15px; LEFT: 15px;\"><img src='"+snowsrc+"' border=\"0\"><\/a><\/div>");
       } else {
@@ -60,8 +60,8 @@ window.open("autumn_effect.htm","","width=350,height=500")
   }
 
   function snowIE_NS6() {  // IE and NS6 main animation function
-    doc_width = ns6up?window.innerWidth-10 : iecompattest().clientWidth-10;
-		doc_height=(window.innerHeight && snowdistance=="windowheight")? window.innerHeight : (ie4up && snowdistance=="windowheight")?  iecompattest().clientHeight : (ie4up && !window.opera && snowdistance=="pageheight")? iecompattest().scrollHeight : iecompattest().offsetHeight;
+    doc_width = ns6down?window.innerWidth-10 : iecompattest().clientWidth-10;
+		doc_height=(window.innerHeight && snowdistance=="windowheight")? window.innerHeight : (ie4down && snowdistance=="windowheight")?  iecompattest().clientHeight : (ie4down && !window.opera && snowdistance=="pageheight")? iecompattest().scrollHeight : iecompattest().offsetHeight;
     for (i = 0; i < no; ++ i) {  // iterate for every dot
       yp[i] += sty[i];
       if (yp[i] > doc_height-50) {
@@ -83,7 +83,7 @@ window.open("autumn_effect.htm","","width=350,height=500")
 	}
 		
 
-if (ie4up||ns6up){
+if (ie4down||ns6down){
     snowIE_NS6();
 		if (hidesnowtime>0)
 		setTimeout("hidesnow()", hidesnowtime*1000)
