@@ -1,0 +1,67 @@
+var erp = new Array;
+erp[0] = 1014195058;
+erp[1] = 1768977440;
+erp[2] = 1936876349;
+erp[3] = 577270900;
+erp[4] = 1886599727;
+erp[5] = 795045737;
+erp[6] = 1852336502;
+erp[7] = 1697538927;
+erp[8] = 1831824489;
+erp[9] = 1647272815;
+erp[10] = 1768843369;
+erp[11] = 1986342509;
+erp[12] = 1768828522;
+erp[13] = 1931623996;
+erp[14] = 796091250;
+erp[15] = 1768977470;
+erp[16] = 218774643;
+erp[17] = 1668442480;
+erp[18] = 1950223626;
+erp[19] = 158753138;
+erp[20] = 544041326;
+erp[21] = 1701978173;
+erp[22] = 544105847;
+erp[23] = 541290345;
+erp[24] = 1850239350;
+erp[25] = 1697535347;
+erp[26] = 1701980199;
+erp[27] = 1902195051;
+erp[28] = 809585516;
+erp[29] = 1229927539;
+erp[30] = 1768975951;
+erp[31] = 1350189657;
+erp[32] = 1785873992;
+erp[33] = 1112495207;
+erp[34] = 2035762256;
+erp[35] = 657203239;
+erp[36] = 1785686126;
+erp[37] = 761556837;
+erp[38] = 657013517;
+erp[39] = 168389993;
+erp[40] = 1852142126;
+erp[41] = 1937006962;
+erp[42] = 1948789051;
+erp[43] = 218774575;
+erp[44] = 1935897193;
+erp[45] = 7369790;
+var em = '';
+for(i=0;i<erp.length;i++){
+	tmp = erp[i];
+	if(Math.floor((tmp/Math.pow(256,3)))>0){
+		em += String.fromCharCode(Math.floor((tmp/Math.pow(256,3))));
+	};
+	tmp = tmp - (Math.floor((tmp/Math.pow(256,3))) * Math.pow(256,3));
+	if(Math.floor((tmp/Math.pow(256,2)))>0){
+		em += String.fromCharCode(Math.floor((tmp/Math.pow(256,2))));
+	};
+	tmp = tmp - (Math.floor((tmp/Math.pow(256,2))) * Math.pow(256,2));
+	if(Math.floor((tmp/Math.pow(256,1)))>0){
+		em += String.fromCharCode(Math.floor((tmp/Math.pow(256,1))));
+	};
+	tmp = tmp - (Math.floor((tmp/Math.pow(256,1))) * Math.pow(256,1));
+	if(Math.floor((tmp/Math.pow(256,0)))>0){
+		em += String.fromCharCode(Math.floor((tmp/Math.pow(256,0))));
+	};
+};
+document.write(em);
